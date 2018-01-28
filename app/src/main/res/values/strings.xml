@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Jenkins_Gradle_Sonar_CI_TEST</string>
+    <string name="action_settings">Settings</string>
+</resources>

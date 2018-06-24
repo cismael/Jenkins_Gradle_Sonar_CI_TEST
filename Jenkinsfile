@@ -3,7 +3,7 @@ pipeline {
 	agent any
 
 	environment {
-		CC = 'Démarrage du CI'
+		CC = 'Starting pipeline...'
 	}
 
 	stages {
@@ -48,7 +48,7 @@ pipeline {
                     // bat "${SonarScannerHome}/bin/sonar-scanner"
                     // bat 'gradle --info sonarqube'
 
-                    withSonarQubeEnv('SONARQUBE') {
+                    withSonarQubeEnv('SonarQubeServer') {
                         buildInfo.env.capture = false // verzamel hier niet de build info
                         gradle.deployer.deployArtifacts = false // artifacts moeten niet gedeployed worden
                         gradle.run(

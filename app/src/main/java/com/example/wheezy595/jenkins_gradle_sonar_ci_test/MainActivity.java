@@ -1,4 +1,4 @@
-package com.example.wheezy595.jenkins_gradle_sonar_ci_test;
+package com.example.jenkins_gradle_sonar_ci_test;
 
 import android.os.Bundle;
 import android.view.Menu;

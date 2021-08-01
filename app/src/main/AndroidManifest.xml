@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.wheezy595.jenkins_gradle_sonar_ci_test">
+    package="com.example.jenkins_gradle_sonar_ci_test">
 
     <application
         android:allowBackup="true"
